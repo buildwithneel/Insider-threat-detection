@@ -1,0 +1,173 @@
+# =============================================================================
+# SentinelAI — .gitignore
+# Python + Flask Backend | React + Vite Frontend | MongoDB
+# =============================================================================
+
+# =============================================================================
+# DATASET — Never commit dataset files (download from Kaggle separately)
+# =============================================================================
+dataset/*
+!dataset/README.md
+dataset_backup/
+data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+
+# Archive/compressed files
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+
+# Model/binary data files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.npy
+*.npz
+*.bin
+*.pb
+
+# =============================================================================
+# ENVIRONMENT VARIABLES — Never commit secrets or API keys
+# =============================================================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*
+!.env.example
+
+# =============================================================================
+# PYTHON
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.spec
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ipynb_checkpoints
+.python-version
+
+# =============================================================================
+# MOCK DATABASE — Generated local data, not for version control
+# =============================================================================
+backend/mock_db/
+
+# =============================================================================
+# NODE / FRONTEND
+# =============================================================================
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+frontend/dist/
+frontend/build/
+.cache/
+.vite/
+*.tsbuildinfo
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# =============================================================================
+# LOGS
+# =============================================================================
+logs/
+backend/logs/
+*.log
+traceback.log
+
+# =============================================================================
+# OS FILES
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# IDE / EDITOR
+# =============================================================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+
+# =============================================================================
+# OFFICE LOCK FILES
+# =============================================================================
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# =============================================================================
+# COVERAGE
+# =============================================================================
+coverage/
+.nyc_output/
