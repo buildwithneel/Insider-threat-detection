@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🦅 SentinelAI — Insider Threat Detection Platform
+# 🦅 GarudaAI — Insider Threat Detection Platform
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.0.3-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
