@@ -41,7 +41,7 @@ It dynamically monitors behavioral event logs, computes real-time trust scores, 
 
 ## 🔍 Overview
 
-SentinelAI (formerly GarudaAI) is an AI-powered Insider Threat Detection platform that ingests and analyzes millions of behavioral events from the **CERT Insider Threat Dataset R4.2** — the gold standard academic dataset from Carnegie Mellon University's Software Engineering Institute.
+GarudaAI (formerly GarudaAI) is an AI-powered Insider Threat Detection platform that ingests and analyzes millions of behavioral events from the **CERT Insider Threat Dataset R4.2** — the gold standard academic dataset from Carnegie Mellon University's Software Engineering Institute.
 
 The platform provides:
 
@@ -75,7 +75,7 @@ The platform provides:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    SentinelAI Platform                      │
+│                    GarudaAI Platform                      │
 ├─────────────────┬───────────────────────┬───────────────────┤
 │   React + Vite  │    Flask REST API      │    MongoDB        │
 │   Frontend      │    Backend            │    Database       │
